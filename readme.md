@@ -40,6 +40,6 @@ Backend : Express (server setup), MongoDB (database), node.js ( Divya, Sebastian
 
 ![routing](https://user-images.githubusercontent.com/106172367/170547906-8f5094a0-3ee9-4b06-9d0a-405dede8a03c.jpeg)
 
-**ANIMATION VIDEO AND DEMONSTRATION VIDEO**
+**ANIMATION AND DEMONSTRATION VIDEOS**
 
 https://user-images.githubusercontent.com/72991264/170538086-37e01213-3b10-4efa-9113-c45402f906fb.mp4
