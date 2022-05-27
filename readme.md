@@ -50,5 +50,5 @@ https://user-images.githubusercontent.com/72991264/170538086-37e01213-3b10-4efa-
 
 https://user-images.githubusercontent.com/72991264/170663360-f849bb90-0700-4757-b950-98a3a462db4c.mp4
 
-[Slide Deck]([https://www.google.com](https://docs.google.com/presentation/d/1jvzoAVM6kF4OWTHY-MbE0aiJVclyzsuBMWLxo5f87uo/edit?usp=sharing))
+[Slide Deck](https://docs.google.com/presentation/d/1jvzoAVM6kF4OWTHY-MbE0aiJVclyzsuBMWLxo5f87uo/edit?usp=sharing)
 
