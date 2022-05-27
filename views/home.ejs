@@ -18,7 +18,7 @@
     <section>
 
     <% applications.forEach(application => { %>
-        <div id="application-card"><div><%=application.title %></div><div><%=application.body %></div><div><%=application.status || 'applied' %></div></div>
+        <div id="application-card"><div><%=application.title %></div><div><%=application.body %></div><div><%=application.status.toUpperCase() %></div></div>
         <%}) %>
     </section>
     <button><a href="/application">Create new application</a></button>

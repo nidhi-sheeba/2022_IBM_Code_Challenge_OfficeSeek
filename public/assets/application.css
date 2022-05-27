@@ -5,7 +5,8 @@ body {
 }
 .navbar {
   display: flex;
-  gap: 1200px;
+ justify-content: space-between;
+
 
   align-items: center;
   padding: 5px;

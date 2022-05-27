@@ -20,7 +20,7 @@
     <section>
 
     <% applications.forEach(application => { %>
-        <div id="application-card"><div><%=application.title %></div><div><%=application.body %></div><div><%=application.status || 'applied' %></div><form method="POST" action="/application/resolve/<%= application._id %>"><button type="submit">Resolve</button></form><form method="POST" action="/application/reject/<%= application._id %>"><button type="submit">Reject</button></form></div>
+        <div id="application-card"><div><%=application.title %></div><div><%=application.body %></div><div><%=application.status.toUpperCase() %></div><form method="POST" action="/application/resolve/<%= application._id %>"><button type="submit">Resolve</button></form><form method="POST" action="/application/reject/<%= application._id %>"><button type="submit">Reject</button></form></div>
         <%}) %>
     </section>
     <script src="/assets/script.js"></script>
