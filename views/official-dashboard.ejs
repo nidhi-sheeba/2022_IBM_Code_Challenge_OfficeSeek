@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/official.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <p>OfficeSeek</p>
+        
+            
+        <a href="/auth/login">Log Out</a>
+    </nav>
+
+    <section>
+
+    <% applications.forEach(application => { %>
+        <div id="application-card"><div><%=application.title %></div><div><%=application.body %></div><div><%=application.status || 'applied' %></div><form method="POST" action="/application/resolve/<%= application._id %>"><button type="submit">Resolve</button></form><form method="POST" action="/application/reject/<%= application._id %>"><button type="submit">Reject</button></form></div>
+        <%}) %>
+    </section>
+    <script src="/assets/script.js"></script>
+</body>
+</html>

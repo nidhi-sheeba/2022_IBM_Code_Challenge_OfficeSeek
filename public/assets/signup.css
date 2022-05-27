@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.9)),
+    url("signup.jpg") repeat 0 0;
+  background-size: contain;
+}
+
+.form-container {
+  height: 100vh;
+
+  color: white;
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 4em;
+  font-weight: 600;
+}
+.label-input-email {
+  display: flex;
+  flex-direction: row;
+  gap: 5.5em;
+}
+.field {
+  width: 31em;
+}
+.main-radio {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.radio-input-general {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.radio-input-official {
+  margin-left: 10em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.label-input-pincode {
+  display: flex;
+  flex-direction: row;
+  gap: 4.1em;
+}
+.label-input-password {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+.signup-button {
+  margin-top: 1.5em;
+  width: 8em;
+  height: 2.3em;
+  background-color: white;
+  border-radius: 1em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.signup-button:hover {
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
+input {
+  background: transparent;
+  color: white;
+}
+input[type="text"],
+input[type="password"] {
+  width: 25em;
+  border: 1px solid rgb(226, 223, 223);
+}
+input[type="radio"] {
+  appearance: none;
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 3px;
+}
+
+input[type="radio"]:checked {
+  background-color: white;
+}
+
+label,
+legend {
+  font-size: 1.5em;
+}

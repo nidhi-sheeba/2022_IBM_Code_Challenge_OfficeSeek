@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.navbar {
+  display: flex;
+  gap: 1300px;
+
+  align-items: center;
+  padding: 5px;
+  padding-left: 30px;
+  color: white;
+  margin-bottom: 30px;
+
+  background-color: #367cff;
+}
+.navbar p {
+  font-size: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+#application-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 4px solid #367cff;
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#application-card button {
+  border: none;
+  color: white;
+  background-color: #367cff;
+  height: 30px;
+  font-size: 14px;
+}

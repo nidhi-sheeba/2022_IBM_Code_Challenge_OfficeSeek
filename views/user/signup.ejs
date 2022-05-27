@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/signup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:
+wght@200;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       
+        <form action="/auth/signup" method="POST">
+            <div class="form-container">
+                <p>Sign Up</p>
+
+            <div class="label-input-email">
+            <label for="email">Email</label>
+            <input type="text"  name="email" required>
+            </div>
+            <div class="field">
+            <fieldset>
+                <legend>Type</legend>
+                <div class="main-radio">
+                <div class="radio-input-general" >
+                <input type="radio" id="general"
+                 name="type" value="general">
+                <label for="general">General</label>
+                </div>
+            <div class="radio-input-official">
+                <input type="radio" id="official"
+                 name="type" value="official">
+                <label for="official">Official</label>
+            </div>
+        </div>
+            </fieldset>
+        </div>
+            <div class="label-input-pincode">
+                <label for="pincode">Pincode</label>
+                <input type="text"  name="pincode" required>
+           </div>
+           
+            <div class="label-input-password">
+            <label for="password">Password</label>
+            <input type="password"  name="password" required>
+            </div>
+            <div>
+            <button class="signup-button" type="submit"><span style="padding-top:20px">Sign Up</span></button>
+            </div>
+        </div>
+        </form>
+    
+        <script src="" async defer></script>
+    </body>
+</html>

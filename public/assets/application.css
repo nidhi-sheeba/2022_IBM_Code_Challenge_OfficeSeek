@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.navbar {
+  display: flex;
+  gap: 1200px;
+
+  align-items: center;
+  padding: 5px;
+  padding-left: 30px;
+  color: white;
+  margin-bottom: 30px;
+
+  background-color: #367cff;
+}
+.navbar p {
+  font-size: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.form {
+  width: 450px;
+  margin: auto;
+  margin-top: 120px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label input {
+  width: 400px;
+  height: 50px;
+  border: 2px solid #367cff;
+}
+.label label {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+button {
+  width: 100px;
+  border: none;
+  background-color: #367cff;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+}

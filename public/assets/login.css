@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.login {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  height: 100vh;
+}
+
+.form-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)),
+    url("signin.jpg") repeat 0 0;
+  background-size: contain;
+}
+.form-img-content {
+  margin-top: 30px;
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.form-img-content h1 {
+  font-weight: 600;
+  font-size: 95px;
+}
+.form-img-content p {
+  padding-left: 160px;
+  padding-right: 160px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.form {
+  background: linear-gradient(179.83deg, #45b5ff 40.82%, #326dfe 75.8%);
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: auto;
+  padding-top: 140px;
+  font-weight: 500;
+}
+.label-1 {
+  display: flex;
+  gap: 72px;
+  font-size: 15px;
+}
+
+.label-2 {
+  display: flex;
+  gap: 40px;
+}
+.label-2 input {
+  border: none;
+  height: 23px;
+}
+.label-1 input {
+  border: none;
+  height: 23px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+
+  border: none;
+}
+.button {
+  justify-content: baseline;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+form {
+  border: none;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.sign-up {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.sign-up a:hover {
+  color: blanchedalmond;
+  cursor: pointer;
+}
