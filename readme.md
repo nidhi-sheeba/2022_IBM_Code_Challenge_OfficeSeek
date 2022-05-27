@@ -34,11 +34,13 @@ Backend : Express (server setup), MongoDB (database), node.js ( Divya, Sebastian
 
 **USER FLOW**
 
-![pages](https://user-images.githubusercontent.com/106172367/170547891-1f6a7e57-b434-4db0-b48e-661c6b5dbe85.jpeg)
+![useflow](https://user-images.githubusercontent.com/106172367/170689100-86d44850-877e-4365-832e-7076bd853868.jpeg)
+
 
 **SYSTEM ARCHITECTURE**
 
-![routing](https://user-images.githubusercontent.com/106172367/170547906-8f5094a0-3ee9-4b06-9d0a-405dede8a03c.jpeg)
+![sysarch](https://user-images.githubusercontent.com/106172367/170689123-c2a8f5f3-3822-43bb-916b-4006b8e2ece4.jpeg)
+
 
 **ANIMATION AND DEMONSTRATION VIDEOS**
 
